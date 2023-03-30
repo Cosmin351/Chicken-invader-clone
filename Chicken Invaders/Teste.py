@@ -1,0 +1,6 @@
+TestFile = open(r'test.txt', 'w+')
+TestFile.write('a' + 'b' + '\n')
+TestFile.write('b')
+TestFile.writelines('asdasda'+ '\n')
+TestFile.write('as')
+TestFile.close()
